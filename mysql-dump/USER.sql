@@ -32,7 +32,8 @@ CREATE TABLE `USER` (
   `last_name` varchar(20) NOT NULL,
   `email` varchar(20) NOT NULL,
   `username` varchar(20) NOT NULL,
-  `password` varchar(20) NOT NULL
+  `password` varchar(20) NOT NULL,
+  `regdate` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 COMMIT;
 
